@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963A3F9B22DD2257009DFB2C /* espnetv2_16_bits.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 963A3F9622DD2257009DFB2C /* espnetv2_16_bits.mlmodel */; };
 		9687B98022DC0EB100CDA691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687B97F22DC0EB100CDA691 /* AppDelegate.swift */; };
 		9687B98222DC0EB100CDA691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687B98122DC0EB100CDA691 /* ViewController.swift */; };
 		9687B98522DC0EB100CDA691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9687B98322DC0EB100CDA691 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		963A3F9622DD2257009DFB2C /* espnetv2_16_bits.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = espnetv2_16_bits.mlmodel; path = quantized_models/espnetv2_16_bits.mlmodel; sourceTree = SOURCE_ROOT; };
 		9687B97C22DC0EB100CDA691 /* SemSegiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemSegiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9687B97F22DC0EB100CDA691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9687B98122DC0EB100CDA691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		9687B99122DC0ED100CDA691 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				963A3F9622DD2257009DFB2C /* espnetv2_16_bits.mlmodel */,
 				9687B99222DC0EE400CDA691 /* espnetv2.mlmodel */,
 			);
 			path = model;
@@ -149,6 +152,7 @@
 				9687B98222DC0EB100CDA691 /* ViewController.swift in Sources */,
 				9687B99322DC0EE400CDA691 /* espnetv2.mlmodel in Sources */,
 				9687B98022DC0EB100CDA691 /* AppDelegate.swift in Sources */,
+				963A3F9B22DD2257009DFB2C /* espnetv2_16_bits.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
