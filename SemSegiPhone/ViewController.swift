@@ -133,7 +133,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     
     func setupVisionModel() {
-        guard let visionModel = try? VNCoreMLModel(for: espnetv2_16_bits().model) else{
+        guard let visionModel = try? VNCoreMLModel(for: espnetv2_fp16().model) else{
             fatalError("Can not load CNN model")
         }
         

@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		963A3F9B22DD2257009DFB2C /* espnetv2_16_bits.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 963A3F9622DD2257009DFB2C /* espnetv2_16_bits.mlmodel */; };
+		963A3FA222DD2457009DFB2C /* espnetv2_fp32.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 963A3FA022DD2457009DFB2C /* espnetv2_fp32.mlmodel */; };
+		963A3FA322DD2457009DFB2C /* espnetv2_fp16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 963A3FA122DD2457009DFB2C /* espnetv2_fp16.mlmodel */; };
 		9687B98022DC0EB100CDA691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687B97F22DC0EB100CDA691 /* AppDelegate.swift */; };
 		9687B98222DC0EB100CDA691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687B98122DC0EB100CDA691 /* ViewController.swift */; };
 		9687B98522DC0EB100CDA691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9687B98322DC0EB100CDA691 /* Main.storyboard */; };
 		9687B98722DC0EB200CDA691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9687B98622DC0EB200CDA691 /* Assets.xcassets */; };
 		9687B98A22DC0EB200CDA691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9687B98822DC0EB200CDA691 /* LaunchScreen.storyboard */; };
-		9687B99322DC0EE400CDA691 /* espnetv2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9687B99222DC0EE400CDA691 /* espnetv2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		963A3F9622DD2257009DFB2C /* espnetv2_16_bits.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = espnetv2_16_bits.mlmodel; path = quantized_models/espnetv2_16_bits.mlmodel; sourceTree = SOURCE_ROOT; };
+		963A3FA022DD2457009DFB2C /* espnetv2_fp32.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = espnetv2_fp32.mlmodel; sourceTree = "<group>"; };
+		963A3FA122DD2457009DFB2C /* espnetv2_fp16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = espnetv2_fp16.mlmodel; sourceTree = "<group>"; };
 		9687B97C22DC0EB100CDA691 /* SemSegiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemSegiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9687B97F22DC0EB100CDA691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9687B98122DC0EB100CDA691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		9687B98622DC0EB200CDA691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9687B98922DC0EB200CDA691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9687B98B22DC0EB200CDA691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9687B99222DC0EE400CDA691 /* espnetv2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = espnetv2.mlmodel; path = ../../../ESPNetv2IOSApp_old/ESPNetv2IOSApp/model/espnetv2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 		9687B99122DC0ED100CDA691 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				963A3F9622DD2257009DFB2C /* espnetv2_16_bits.mlmodel */,
-				9687B99222DC0EE400CDA691 /* espnetv2.mlmodel */,
+				963A3FA122DD2457009DFB2C /* espnetv2_fp16.mlmodel */,
+				963A3FA022DD2457009DFB2C /* espnetv2_fp32.mlmodel */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -149,10 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963A3FA322DD2457009DFB2C /* espnetv2_fp16.mlmodel in Sources */,
+				963A3FA222DD2457009DFB2C /* espnetv2_fp32.mlmodel in Sources */,
 				9687B98222DC0EB100CDA691 /* ViewController.swift in Sources */,
-				9687B99322DC0EE400CDA691 /* espnetv2.mlmodel in Sources */,
 				9687B98022DC0EB100CDA691 /* AppDelegate.swift in Sources */,
-				963A3F9B22DD2257009DFB2C /* espnetv2_16_bits.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
