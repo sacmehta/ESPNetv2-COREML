@@ -26,3 +26,6 @@ If you are familiar with iOS application development and wants to improve the de
 
 ## License
 The code and models are released under the same license as [EdgeNets](https://github.com/sacmehta/EdgeNets).
+
+## Acknowledgement
+Many thanks to [Srini](http://sriniiyer.github.io/) and [Hanna](https://homes.cs.washington.edu/~hannaneh/) for their support and help as always.
