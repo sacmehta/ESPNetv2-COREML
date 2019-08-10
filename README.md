@@ -17,7 +17,7 @@ This repository provides **a real-time demo** of [ESPNetv2](https://arxiv.org/ab
 </table>
 
 ## Model details
-The COREML model takes an RGB image of size 256x256 as an input and produces an output of size 256x256. The model learns about `0.79 million parameters` and performs roughly `337 million FLOPs` to generate the segmentation mask. The model is trained using PyTorch on the PASCAL VOC 2012 dataset and achieves a segmentation score of `63.36`, which is measured in terms of mean interesection over union (mIOU). 
+The COREML model takes an RGB image of size 256x256 as an input and produces an output of size 256x256 in **real-tim**. The model learns about `0.79 million parameters` and performs roughly `337 million FLOPs` to generate the segmentation mask. The model is trained using PyTorch on the PASCAL VOC 2012 dataset and achieves a segmentation score of `63.36`, which is measured in terms of mean interesection over union (mIOU). 
 
 Several pre-trained models are provided in our [EdgeNets](https://github.com/sacmehta/EdgeNets) repository. 
 
