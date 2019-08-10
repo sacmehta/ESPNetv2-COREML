@@ -1,6 +1,6 @@
 # Real-time semantic segmentation using ESPNetv2 on iPhone
 
-This repository provides **a real-time demo** of [ESPNetv2](https://arxiv.org/abs/1811.11431) on iPhone (tested only on iPhone7).
+This repository provides **a real-time demo** of [ESPNetv2](https://arxiv.org/abs/1811.11431) on iPhone (tested only on iPhone7). Below are some illustrations.
 
 <table>
     <tr>
