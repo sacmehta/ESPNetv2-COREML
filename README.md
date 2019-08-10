@@ -25,4 +25,4 @@ Several pre-trained models are provided in our [EdgeNets](https://github.com/sac
 If you are familiar with iOS application development and wants to improve the design or contribute in some way, please do so by creating a `pull request`. We welcome contributions.
 
 ## License
-The code is released under the same license as EdgeNets](https://github.com/sacmehta/EdgeNets).
+The code and models are released under the same license as [EdgeNets](https://github.com/sacmehta/EdgeNets).
